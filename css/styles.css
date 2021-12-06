@@ -1,28 +1,24 @@
-.header h1 {
+.first-col {
+    width: 50%;
+    top: 4em;
+    left: 2em;
+    box-sizing: border-box;
+    float: left;
     position: relative;
-    display: inline-block;
-    opacity: 100%;
-    font-size: 3em; 
 }
 
-.header h3 {
+.sec-col {
+    float: right;
     position: relative;
-    display: inline-block;
-    opacity: 100%;
-    font-size: 2em; 
+    right: 3.8em;
+    top: .2em;
 }
 
-.climbs {
-    margin-left: 200px;
-}
 
-.climbs:hover {
-    position: relative;
-    cursor: pointer;
-    margin-left: 0;
-}
+
 
 /* END OF HEADERS */
+
 
 
 .header {
@@ -30,21 +26,18 @@
     height: 100vh;
     position: relative;
     background-color: gray;
-    
-}
-
-
-.fitness {
-    margin-left: 180px;
-    margin-top: 50px;
-}
-.main-text {
-    width: 90%;
-    color: black;
-    position: absolute;
-    top: 30vh;
     text-align: center;
-    opacity: 100%;
+    font-size: larger;
+}
+
+.wrapper {
+    border: 10px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30vw;
+    transform: translate(-50%, -50%);
+    height: auto;
 }
 
 nav { 
