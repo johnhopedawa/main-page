@@ -42,9 +42,7 @@
     width: 90%;
     color: black;
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    top: 30vh;
     text-align: center;
     opacity: 100%;
 }
