@@ -1,10 +1,11 @@
 .first-col {
     width: 50%;
-    top: 4em;
-    left: 2em;
+    top: 2.57em;
+    left: 1.9em;
     box-sizing: border-box;
     float: left;
     position: relative;
+    font-size: 1.5em;
 }
 
 .sec-col {
@@ -14,12 +15,96 @@
     top: .2em;
 }
 
-
-
-
 /* END OF HEADERS */
 
+.fas {
+    opacity: 50%;
+    font-size: 2em;
+    transition: 1s;
+    cursor: pointer;
+}
 
+.fas:hover {
+    opacity: 100%;
+}
+
+/* first starting */
+
+.first:after {
+    width: 0%;
+    transition: 1s;
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+    margin: 0 auto;
+	left: 0;
+    right: 0;
+	width: 0%;
+	background: black;
+}
+.fa-sort-down:hover .first:after {
+    width: 50%;
+    opacity: 100%;
+}
+
+.fa-sort-down:hover .first {
+    opacity: 100%;
+}
+
+.first {
+    font-size: 0.97em;
+    opacity: 50%;
+}
+
+/* first ending */
+
+/* second starting */
+
+.second {
+    font-size: 2em;
+}
+
+/* second ending  */
+
+/* third starting  */
+
+.third:after {
+    width: 0%;
+    transition: 1s;
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+    margin: 0 auto;
+	left: 0;
+    right: 0;
+	width: 0%;
+	background: black;
+}
+.fa-sort-up:hover ~ .third:after {
+    width: 50%;
+    opacity: 100%;
+}
+
+.fa-sort-up:hover ~ .third {
+    opacity: 100%;
+}
+
+.third {
+    font-size: 0.97em;
+    opacity: 50%;
+    transition: 1s;
+    text-decoration: none;
+    position: relative;
+}
+
+/* third ending */
+
+.sec-col {
+    top: -.5px;
+    right: 20%;
+}
 
 .header {
     width: 100%;
@@ -38,32 +123,6 @@
     width: 30vw;
     transform: translate(-50%, -50%);
     height: auto;
-}
-
-nav { 
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.nav-links {
-    text-align: right;
-    flex: 1;
-}
-
-.nav-links ul li {
-    list-style: none;
-    display: inline;
-    padding: 8px 8px;
-}
-
-.nav-links ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-nav .fa {
-    display: none;
 }
 
 /* sends */
