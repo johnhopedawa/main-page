@@ -11,7 +11,9 @@
 .sec-col {
     float: right;
     position: relative;
-    right: 3.8em;
+    border: black 10px solid;
+    width: 30%;
+    height: 100%;
     top: .2em;
 }
 
@@ -22,39 +24,25 @@
     font-size: 2em;
     transition: 1s;
     cursor: pointer;
+    position: absolute;
 }
 
 .fas:hover {
     opacity: 100%;
 }
 
+.fa-sort-down {
+    bottom: 0px;
+    margin-bottom: 0px;
+}
 /* first starting */
-
-.first:after {
-    width: 0%;
-    transition: 1s;
-    position: absolute;
-    content: '';
-    height: 2px;
-    bottom: -4px;
-    margin: 0 auto;
-	left: 0;
-    right: 0;
-	width: 0%;
-	background: black;
-}
-.fa-sort-down:hover .first:after {
-    width: 50%;
-    opacity: 100%;
-}
-
-.fa-sort-down:hover .first {
-    opacity: 100%;
-}
 
 .first {
     font-size: 0.97em;
     opacity: 50%;
+    text-decoration: none;
+    position: relative;
+    transition: 1s;
 }
 
 /* first ending */
@@ -63,49 +51,24 @@
 
 .second {
     font-size: 2em;
-    transition: 1s;
+    transition: .5s;
 }
 
 /* second ending  2222222222222 */
 
 /* third starting  */
 
-.third:after {
-    width: 0%;
-    transition: 1s;
-    position: absolute;
-    content: '';
-    height: 2px;
-    bottom: -4px;
-    margin: 0 auto;
-	left: 0;
-    right: 0;
-	width: 0%;
-	background: black;
-}
-.fa-sort-up:hover ~ .third:after {
-    width: 50%;
-    opacity: 100%;
-}
-
-.fa-sort-up:hover ~ .third {
-    opacity: 100%;
-}
 
 .third {
     font-size: 0.97em;
     opacity: 50%;
-    transition: 1s;
+    transition: .5s;
     text-decoration: none;
     position: relative;
+
 }
 
 /* third ending */
-
-.sec-col {
-    top: -.5px;
-    right: 20%;
-}
 
 .header {
     width: 100%;
@@ -118,35 +81,13 @@
 
 .wrapper {
     border: 10px solid black;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     width: 30vw;
     transform: translate(-50%, -50%);
-    height: auto;
+    height: 30vh;
 }
-
-/* sends */
-
-
-.send-columns h1 {
-    text-align: center;
-}
-
-.send-columns { 
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-
-
-
-
-
-
-
 
 
 
