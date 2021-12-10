@@ -11,10 +11,11 @@
 .sec-col {
     float: right;
     position: relative;
-    border: black 10px solid;
+    /* border: black 10px solid; */
     width: 30%;
     height: 100%;
     top: .2em;
+    right: 6em;
 }
 
 /* END OF HEADERS */
@@ -43,6 +44,7 @@
     text-decoration: none;
     position: relative;
     transition: 1s;
+    margin-top: 28.5%;
 }
 
 /* first ending */
