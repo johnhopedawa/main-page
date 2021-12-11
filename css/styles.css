@@ -39,12 +39,13 @@
 /* first starting */
 
 .first {
-    font-size: 0.97em;
+    font-size: 2em;
     opacity: 50%;
     text-decoration: none;
-    position: relative;
+    position: absolute;
     transition: 1s;
     margin-top: 28.5%;
+    left: 30%;
 }
 
 /* first ending */
@@ -54,6 +55,9 @@
 .second {
     font-size: 2em;
     transition: .5s;
+    left: 5%;
+    top: 25.5%;
+    position: absolute;
 }
 
 /* second ending  2222222222222 */
@@ -62,12 +66,13 @@
 
 
 .third {
-    font-size: 0.97em;
+    font-size: 2em;
     opacity: 50%;
     transition: .5s;
     text-decoration: none;
-    position: relative;
-
+    position: absolute;
+    top: 65%;
+    left: 30%;
 }
 
 /* third ending */
