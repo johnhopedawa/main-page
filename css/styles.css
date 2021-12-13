@@ -1,6 +1,6 @@
 .wrapper {
     border: 10px solid black;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     width: 30vw;
@@ -8,58 +8,44 @@
     height: 30vh;
 }
 
+.hugger {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 30px;
+}
+
 .first-col {
-
+    top: 35%;
+    position: relative;
 }
 
+.breh2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh; 
+    border: 10px solid black;
+}
 .sec-col {
-
+    margin-top: auto;
+    margin-bottom: auto;
 }
-
-/* END OF HEADERS */
 
 .fas {
     opacity: 50%;
     font-size: 2em;
     transition: 1s;
     cursor: pointer;
-    position: absolute;
 }
 
 .fas:hover {
     opacity: 100%;
 }
 
-.fa-sort-down {
-    bottom: 0px;
-    margin-bottom: 0px;
-}
-/* first starting */
-
-.first {
-}
-
-/* first ending */
-
-/* second starting 2222222222222222  */
-
-.second {
-}
-
-/* second ending  2222222222222 */
-
-/* third starting  */
-
-
-.third {
-}
-
-/* third ending */
-
 .header {
     width: 100%;
     height: 100vh;
-    position: relative;
     background-color: gray;
     text-align: center;
     font-size: larger;
