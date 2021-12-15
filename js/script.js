@@ -6,7 +6,6 @@ function changeSecond() {
 
 
 
-/*
 function upHover(){
     document.getElementsByClassName("first")[0].style.fontSize = "em";
     document.getElementsByClassName("first")[0].style.opacity = "100%";
@@ -24,4 +23,3 @@ function upHoverOut() {
     document.getElementsByClassName("second")[0].style.fontSize = "2em";
     document.getElementsByClassName("second")[0].style.opacity = "100%";
 }
-*/
